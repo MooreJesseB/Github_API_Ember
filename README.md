@@ -1,3 +1,10 @@
+# Way2B1 instructions
+Please see below for how to set ember up locally.
+
+For the purposes of examining the component tree please look at the `/components` and `/templates` directory in the app dir.
+
+Unlike react, Ember separates the markup (in this case HTMLBars, a version of Handlebars) from the JavaScript logic for the component. The markup is found in the `/templates` directory and the js logic in the `/components` directory. Data binding can be found anywhere there are two curly braces in an HTML element or an Ember helper (look for `{{foobar}}` in the HTML elements.
+
 # githubapi
 
 This README outlines the details of collaborating on this Ember application.
@@ -22,25 +29,6 @@ You will need the following things properly installed on your computer.
 
 * `ember serve`
 * Visit your app at [http://localhost:4200](http://localhost:4200).
-* Visit your tests at [http://localhost:4200/tests](http://localhost:4200/tests).
-
-### Code Generators
-
-Make use of the many generators for code, try `ember help generate` for more details
-
-### Running Tests
-
-* `ember test`
-* `ember test --server`
-
-### Building
-
-* `ember build` (development)
-* `ember build --environment production` (production)
-
-### Deploying
-
-Specify what it takes to deploy your app.
 
 ## Further Reading / Useful Links
 
