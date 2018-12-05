@@ -1,0 +1,12 @@
+<div class="container center">
+    {{github-user-field submitName=(action 'submitName') name=name}}
+    {{#if avatar}}
+        {{github-avatar avatar=avatar}}
+    {{/if}}
+    {{#if followers}}
+        {{github-followers followers=followers}}
+    {{/if}}
+    {{#if repos}}
+        {{github-repo-names repos=repos}}
+    {{/if}}
+</div>

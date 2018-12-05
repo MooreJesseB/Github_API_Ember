@@ -1,0 +1,16 @@
+.container {
+    width: 500px;
+}
+.center {
+    margin: 0 auto;
+    /* text-align: center; */
+}
+
+img {
+    height: 250px;
+    width: 250px;
+}
+
+div {
+    margin-top: 20px;
+}
